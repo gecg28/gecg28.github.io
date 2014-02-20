@@ -1,0 +1,60 @@
+.panel-dep-info {
+    background: none repeat scroll 0 0 #2D548D;
+    float: left;
+    padding: 25px;
+}
+
+.static-page .title-event{
+    color: #FFFFFF;
+}
+
+.static-page .title-event:hover {
+    color: #222222;
+}
+
+.static-page .panel-dep-info .list-event-slider li {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+}
+.event-container {
+ margin-top:10px;
+}
+.syllabus-cont {
+    margin-top:25px
+}
+.syllabus-cont li {
+	list-style: none outside none;
+}
+.syllabus-cont li a {
+    background: none repeat scroll 0 0 #2D548D;
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 25px;
+    width: 125px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.syllabus-cont li a:hover {
+    background: none repeat scroll 0 0 #E4E4E4;
+	color: #222222 !important;
+	transition-duration:0s;
+}
+.event-container-one {
+    padding-top: 10px;
+}
+#nav-sidebar {
+    list-style: none outside none;
+    margin: 0 0 50px;
+}
+.list-event-slider > strong {
+    color: #FFFFFF;
+    font-size: 19px;
+    margin: 0 0 8px;
+    padding: 2px 0 0 0px;
+}
