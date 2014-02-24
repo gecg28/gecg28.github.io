@@ -782,9 +782,6 @@ html[xmlns] .slides {display: block;}
     z-index:10;
     padding-top:0;
 }
-#content-container {
-    padding-top:180px;
-}
 #content {
     width:1125px;
     margin:0 auto;
