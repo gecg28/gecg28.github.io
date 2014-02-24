@@ -132,7 +132,7 @@ ul.news-sidebar h4,
 #main-header {
     width:100%;
     height:180px;
-    position:fixed;
+    position:relative;
     z-index:1000;
 }
 #header-full {
@@ -450,17 +450,16 @@ nav#nav li li:hover ul
 
 #slideshow-tabs {
     width:100%;
-    height:620px;
+    height:500px;
     position:relative;
     z-index:10;
     margin:0 0 50px 0;
     min-width:1185px;
     padding-bottom: 50px;
-    padding-top: 150px;
 }
 #slideshow-tabs .ui-tabs-panel {
     width:100%;
-    height:620px;
+    height:500px;
     min-width:1185px;
 }
 .tabs-blur {
