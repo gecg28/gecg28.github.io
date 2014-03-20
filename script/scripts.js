@@ -40,6 +40,12 @@
         $( ".accordion" ).accordion({
 	        heightStyle: "content"
         });
+		$(".accordion").bind("accordionactivate", function(event, ui) {
+			if ($(ui.newHeader).offset() != null) {
+			  ui.newHeader, // $ object, activated header
+			  $("html, body").animate({scrollTop: ($(ui.newHeader).offset().top)-100}, 500);
+			}
+		});
 		$('a[data-rel]').each(function() {
 			$(this).attr('rel', $(this).data('rel'));
 		});
