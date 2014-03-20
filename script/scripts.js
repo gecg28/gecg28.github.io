@@ -17,7 +17,7 @@
 			default_height: 420,
 			social_tools: false
 		});
-        $('#slideshow-tabs').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
+        $('#slideshow-tabs').tabs({collapsible: true,show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
         $('#tabs-content-bottom').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
         $('.slider-tabs.flexslider').flexslider({
             animation: "slide",
