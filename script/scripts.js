@@ -90,7 +90,6 @@
                 $('#main-header').addClass('small');
             }
         });
-        $('#slideshow-tabs').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
         $('#tabs-content-bottom').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
         $('.slider-tabs.flexslider').flexslider({
             animation: "slide",
