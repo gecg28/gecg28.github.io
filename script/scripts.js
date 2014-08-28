@@ -131,7 +131,6 @@
         $('a[data-rel]').each(function() {
             $(this).attr('rel', $(this).data('rel'));
         });
-        $('img[data-retina]').retina({checkIfImageExists: true});
         $(".open-menu").click(function(){
             $("body").addClass("no-move");
         });
