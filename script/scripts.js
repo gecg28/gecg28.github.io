@@ -79,11 +79,6 @@
 
     (function($) {
         "use strict";
-        $("a[data-rel^='prettyPhoto']").prettyPhoto({
-            default_width: 600,
-            default_height: 420,
-            social_tools: false
-        });
         $(window).scroll(function () {
             if ($(document).scrollTop() <= 40) {
                 $('#header-full').removeClass('small');
@@ -96,14 +91,6 @@
             }
         });
         $('#slideshow-tabs').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|OperaMini/i.test(navigator.userAgent) || ($(window).width() < 1024) ) { 
-        } else {
-            $('#slideshow-tabs .ui-tabs-panel').parallax("50%", 0.5);
-            $('.content-home-1').parallax("0", 0.5);
-            $('.content-home-2').parallax("100%", 0.5);
-            $('.content-home-3').parallax("0", 0.5);
-            $('#title-content').parallax("50%", 0.5);
-        }
         $('#tabs-content-bottom').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
         $('.slider-tabs.flexslider').flexslider({
             animation: "slide",
