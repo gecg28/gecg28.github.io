@@ -110,7 +110,7 @@
             pauseOnAction: true
         });
         $( ".accordion" ).accordion({
-            active: false,heightStyle: "content",
+            active: false,collapsible: true,heightStyle: "content",
         });
         $(".accordion").bind("accordionactivate", function(event, ui) {
             if ($(ui.newHeader).offset() != null) {
