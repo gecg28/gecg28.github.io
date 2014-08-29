@@ -1247,7 +1247,7 @@ html[xmlns] .slides {display: block;}
     width:42px;
     height:42px;
     background:#2d548d url(../images/arrow-prev-slide.png) no-repeat 50% 12px;
-    bottom:270px;
+    bottom:100px;
     left:25px;
     text-indent:-9999px;
     background-size:14px 18px;
@@ -1258,7 +1258,7 @@ html[xmlns] .slides {display: block;}
     width:42px;
     height:42px;
     background:#2d548d url(../images/arrow-next-slide.png) no-repeat 50% 12px;
-    bottom:270px;
+    bottom:100px;
     right:25px;
     text-indent:-9999px;
     background-size:14px 18px;
