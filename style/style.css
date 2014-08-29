@@ -2729,7 +2729,7 @@ img.alignright, .static-page img.alignright {
 	color:#444;
 }
 .static-page ul, .static-page ol {
-	margin: 0 0 24px 0px;
+	margin: 0 0 24px 30px;
 	line-height: 1.6;
 	font-size: 15px;
 	color:#444;
