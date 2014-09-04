@@ -2619,7 +2619,6 @@ html[xmlns] .slides {display: block;}
     display:none;
 }
 .sidebar-homepage .widget-container .flexslider h4 {
-    text-align:center;
     margin:0 60px;
     font-size:14px;
     color:#444;
@@ -2640,7 +2639,7 @@ html[xmlns] .slides {display: block;}
     width:32px;
     height:32px;
     background:#2d548d url(../images/arrow-prev-slide.png) no-repeat 50% 9px;
-    bottom:0;
+    bottom:-35px;
     left:0;
     text-indent:-9999px;
     background-size:12px 15px;
@@ -2651,7 +2650,7 @@ html[xmlns] .slides {display: block;}
     width:32px;
     height:32px;
     background:#2d548d url(../images/arrow-next-slide.png) no-repeat 50% 9px;
-    bottom:0;
+    bottom:-35px;
     right:0;
     text-indent:-9999px;
     background-size:12px 15px;
