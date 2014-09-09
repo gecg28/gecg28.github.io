@@ -827,6 +827,12 @@
         left:auto;
         display:block;
     }
+    #logo > h2 {
+        font-size: 15px;
+    }
+    .home > #content-container {
+    padding-top: 25px;
+    }
     .panel-event-info {
         width:90%;
         height:auto;
