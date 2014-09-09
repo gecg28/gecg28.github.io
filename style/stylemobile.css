@@ -828,10 +828,10 @@
         display:block;
     }
     #logo > h2 {
-        font-size: 15px;
+        font-size: 15px !important;
     }
     .home > #content-container {
-    padding-top: 25px;
+    padding-top: 25px !important;
     }
     .panel-event-info {
         width:90%;
