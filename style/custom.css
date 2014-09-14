@@ -67,3 +67,12 @@
 #header-full.small #logo > h2 {
     display:none
 }
+.deplink {
+    border: 1px solid;
+    color: #ffffff !important;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px;
+    text-decoration: none;
+}
