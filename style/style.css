@@ -850,6 +850,13 @@ html[xmlns] .slides {display: block;}
     font-weight:bold;
     margin:0 0 20px 0;
 }
+#intro h2 {
+    font-size:15px;
+    color:#716658;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:0 0 20px 0;
+}
 #intro figure {
     width:363px;
     float:left;
@@ -860,7 +867,7 @@ html[xmlns] .slides {display: block;}
     color:#333;
     font-weight:300;
     line-height:1.6;
-    margin:0 0 24px;
+    margin:0 0 10px;
 }
 .more-intro {
     font-size:16px;
