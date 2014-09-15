@@ -864,6 +864,7 @@ html[xmlns] .slides {display: block;}
     font-weight:300;
     line-height:1.6;
     margin:0 0 10px;
+    text-align: justify;
 }
 .more-intro {
     font-size:16px;
@@ -2768,6 +2769,7 @@ img.alignright, .static-page img.alignright {
 	line-height: 1.6;
 	font-size: 15px;
 	color:#444;
+    text-align: justify;
 }
 .static-page ul, .static-page ol {
 	margin: 0 0 24px 30px;
