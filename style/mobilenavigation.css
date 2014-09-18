@@ -6,10 +6,8 @@
         width:200px;
         height:69px;
     }
-    #logo img {
-        width:200px;
-        height:69px;
-    }
+    .home > #content-container {
+        padding-top: 80px;    }
     #nav {
         position: fixed;
         left:0;
