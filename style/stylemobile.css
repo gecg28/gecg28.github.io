@@ -75,6 +75,9 @@
         position:relative !important;
         height:auto;
     }
+    #content-container {
+    padding-top: 80px !important;
+    }
     #main-header.small {
         position:relative;
         height:50px;
